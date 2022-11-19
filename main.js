@@ -39,16 +39,6 @@ function showTodo(filter) {
 }
 showTodo("all");
 
-// function showMenu(selectedTask) {
-//     let menuDiv = selectedTask.parentElement.lastElementChild;
-//     menuDiv.classList.add("show");
-//     document.addEventListener("click", e => {
-//         if(e.target.tagName != "I" || e.target != selectedTask) {
-//             menuDiv.classList.remove("show");
-//         }
-//     });
-// }
-
 function updateStatus(selectedTask) {
     let taskName = selectedTask.parentElement.lastElementChild;
     if(selectedTask.checked) {
